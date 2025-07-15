@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "json2csv": "^6.0.0-alpha.2",
+    "papaparse": "^5.5.3",
+    "recharts": "^3.0.2"
+  }
+}
