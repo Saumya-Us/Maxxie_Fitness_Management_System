@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Maxxie_Fitness_Management_System/static/css/main.181b9e58.css",
+    "main.js": "/Maxxie_Fitness_Management_System/static/js/main.b6909c0c.js",
+    "static/js/65.e3dd8c3a.chunk.js": "/Maxxie_Fitness_Management_System/static/js/65.e3dd8c3a.chunk.js",
+    "static/js/428.7c4ea4e4.chunk.js": "/Maxxie_Fitness_Management_System/static/js/428.7c4ea4e4.chunk.js",
+    "static/js/927.a270003c.chunk.js": "/Maxxie_Fitness_Management_System/static/js/927.a270003c.chunk.js",
+    "static/js/990.80e5b88f.chunk.js": "/Maxxie_Fitness_Management_System/static/js/990.80e5b88f.chunk.js",
+    "static/js/920.af607206.chunk.js": "/Maxxie_Fitness_Management_System/static/js/920.af607206.chunk.js",
+    "static/js/852.6138d85d.chunk.js": "/Maxxie_Fitness_Management_System/static/js/852.6138d85d.chunk.js",
+    "static/js/354.fd7d3ca3.chunk.js": "/Maxxie_Fitness_Management_System/static/js/354.fd7d3ca3.chunk.js",
+    "static/js/358.6dc25822.chunk.js": "/Maxxie_Fitness_Management_System/static/js/358.6dc25822.chunk.js",
+    "static/js/233.adf14d71.chunk.js": "/Maxxie_Fitness_Management_System/static/js/233.adf14d71.chunk.js",
+    "static/js/213.a0e99d0b.chunk.js": "/Maxxie_Fitness_Management_System/static/js/213.a0e99d0b.chunk.js",
+    "static/js/732.0eb8fd42.chunk.js": "/Maxxie_Fitness_Management_System/static/js/732.0eb8fd42.chunk.js",
+    "static/js/453.d855a71b.chunk.js": "/Maxxie_Fitness_Management_System/static/js/453.d855a71b.chunk.js",
+    "static/media/BG.jpg": "/Maxxie_Fitness_Management_System/static/media/BG.4f4534024ecfb4e4f8de.jpg",
+    "static/media/BG2.jpg": "/Maxxie_Fitness_Management_System/static/media/BG2.ce6460c17c5072eda947.jpg",
+    "static/media/maxxieslogos.png": "/Maxxie_Fitness_Management_System/static/media/maxxieslogos.269dc3979cad31f88835.png",
+    "index.html": "/Maxxie_Fitness_Management_System/index.html",
+    "main.181b9e58.css.map": "/Maxxie_Fitness_Management_System/static/css/main.181b9e58.css.map",
+    "main.b6909c0c.js.map": "/Maxxie_Fitness_Management_System/static/js/main.b6909c0c.js.map",
+    "65.e3dd8c3a.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/65.e3dd8c3a.chunk.js.map",
+    "428.7c4ea4e4.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/428.7c4ea4e4.chunk.js.map",
+    "927.a270003c.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/927.a270003c.chunk.js.map",
+    "990.80e5b88f.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/990.80e5b88f.chunk.js.map",
+    "920.af607206.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/920.af607206.chunk.js.map",
+    "852.6138d85d.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/852.6138d85d.chunk.js.map",
+    "354.fd7d3ca3.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/354.fd7d3ca3.chunk.js.map",
+    "358.6dc25822.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/358.6dc25822.chunk.js.map",
+    "233.adf14d71.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/233.adf14d71.chunk.js.map",
+    "213.a0e99d0b.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/213.a0e99d0b.chunk.js.map",
+    "732.0eb8fd42.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/732.0eb8fd42.chunk.js.map",
+    "453.d855a71b.chunk.js.map": "/Maxxie_Fitness_Management_System/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.181b9e58.css",
+    "static/js/main.b6909c0c.js"
+  ]
+}
