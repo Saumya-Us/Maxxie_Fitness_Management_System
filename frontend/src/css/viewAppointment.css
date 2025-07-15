@@ -1,0 +1,185 @@
+.view-appointment-container {
+    background-color: #f8fafc;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.view-appointment-container .appointment-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.view-appointment-container .appointment-header h1 {
+    color: #1a202c;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #4299e1, #667eea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.view-appointment-container .appointment-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.view-appointment-container .card-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.view-appointment-container .card-header h2 {
+    color: #2d3748;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.view-appointment-container .card-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.view-appointment-container .detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.view-appointment-container .detail-label {
+    color: #718096;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.view-appointment-container .detail-value {
+    color: #2d3748;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Status Badges */
+.view-appointment-container .status-pending {
+    color: #ed8936;
+    font-weight: 600;
+    background-color: #fffaf0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.view-appointment-container .status-confirmed {
+    color: #48bb78;
+    font-weight: 600;
+    background-color: #f0fff4;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.view-appointment-container .status-completed {
+    color: #4299e1;
+    font-weight: 600;
+    background-color: #ebf8ff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.view-appointment-container .status-cancelled {
+    color: #f56565;
+    font-weight: 600;
+    background-color: #fff5f5;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.view-appointment-container .card-footer {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #e2e8f0;
+    text-align: center;
+}
+
+.view-appointment-container .back-button {
+    background: linear-gradient(135deg, #4299e1, #667eea);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(66, 153, 225, 0.1), 0 2px 4px -1px rgba(66, 153, 225, 0.06);
+}
+
+.view-appointment-container .back-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 8px -1px rgba(66, 153, 225, 0.2), 0 4px 6px -1px rgba(66, 153, 225, 0.1);
+}
+
+/* Loading State */
+.view-appointment-container .loading-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.view-appointment-container .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #4299e1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error State */
+.view-appointment-container .error-state {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff5f5;
+    border-radius: 8px;
+    color: #c53030;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .view-appointment-container {
+        padding: 1rem;
+    }
+
+    .view-appointment-container .appointment-header h1 {
+        font-size: 2rem;
+    }
+
+    .view-appointment-container .card-content {
+        grid-template-columns: 1fr;
+    }
+} 

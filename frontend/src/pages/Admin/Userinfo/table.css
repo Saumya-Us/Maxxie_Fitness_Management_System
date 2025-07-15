@@ -1,0 +1,60 @@
+.userinfo{
+    height: 800px;
+    overflow-y: auto;
+  }
+  
+  .userinfo > table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .userinfo > thead {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+  
+  .userinfo > th {
+    color: #333;
+    font-weight: 600;
+    padding: 10px 10px;
+    text-align: left;
+    
+  }
+
+  .userinfo > table thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  .userinfo > table tbody tr:hover {
+    background-color: #e3ebff;
+    transition: background-color 0.9s ease;
+    cursor: pointer;
+  }
+
+  .userinfo .no-data:hover {
+    background-color:  white;
+    transition: none;
+    cursor: default;
+  }
+  
+  .userinfo > table td  {
+    padding: 10px 5px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+  }
+  .userinfo > table th {
+    padding: 10px 5px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+  }
+  
+  
