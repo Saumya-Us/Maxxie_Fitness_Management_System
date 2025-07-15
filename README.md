@@ -1,45 +1,45 @@
-Maxxie Fitness Center Management System 🏋️‍♀️
+# Maxxie Fitness Center Management System 🏋️‍♀️
 
 A full-stack web application designed to streamline fitness center operations — from member registration to personalized workout and diet plans, supplement sales, financial tracking, and admin management.
 
+---
 
- ✨ Features
+## ✨ Features
 
- ✅ General
+### ✅ General
 - User registration, login, and authentication (with admin/member roles)
 - Responsive UI for both users and admins
 - Profile management and password reset functionality
 
- 🧑‍💼 Member Features
+### 🧑‍💼 Member Features
 - Membership plan selection and management
 - Appointment booking (personal training, group classes, yoga, crossfit)
 - Assigned workout & diet plans with feedback system
 - Supplement store with cart functionality
 - Payment history viewing and UI-level tracking
 
- 🛠 Admin Features
+### 🛠 Admin Features
 - Admin dashboard for managing:
-  - Users & roles
-  - Membership plans
-  - Appointments
-  - Workout & diet plans
-  - Supplements inventory
+  - Users & roles  
+  - Membership plans  
+  - Appointments  
+  - Workout & diet plans  
+  - Supplements inventory  
   - Financial tracking (payments & expenses)
 
+---
 
+## 🛠 Tech Stack
 
- 🛠 Tech Stack
-
- 🔹 Frontend
+### 🔹 Frontend
 - React  
 - React Router  
 - Redux  
 - Axios  
 - Material-UI (MUI)  
 - Bootstrap  
-  
 
- 🔹 Backend
+### 🔹 Backend
 - Node.js  
 - Express.js  
 - MongoDB  
@@ -49,39 +49,49 @@ A full-stack web application designed to streamline fitness center operations �
 - bcrypt  
 - dotenv  
 
-🔹 Other Tools
-- Chart.js (for analytics)  
-- jsPDF (PDF exports)  
+### 🔹 Other Tools
+- Chart.js (analytics and graphs)  
+- jsPDF (PDF report generation)  
 - Nodemailer (email services)
 
-🔹Getting Started
--Prerequisites
--Node.js (v16+ recommended)
--npm
--MongoDB (local or cloud, if using backend)
+---
 
+## 🚀 Getting Started
 
-📦 Core Modules
+### 🔧 Prerequisites
+- Node.js (v16+ recommended)  
+- npm  
+- MongoDB (local or cloud instance)
 
-🎯 Frontend
--Authentication: Login, registration, password reset, protected routes
--User Dashboard: Appointments, plans, supplements, profile
--Admin Dashboard: Users, plans, appointments, supplements, finances
--Store & Cart: Browse/purchase supplements, cart management
--Workout & Diet Plans: Assign, view, and provide feedback
--Financials: Payments and expenses UI tracking
+> ⚠️ This project requires both the **frontend** and **backend** to be running for full functionality.  
+> Features like **payments** may need backend configuration and secure deployment.
 
+---
 
-🔧 Backend
--User Management: Register, login, roles, profile
--Membership Plans: CRUD operations
--Appointments: Book, manage, update sessions
--Supplements: Inventory CRUD
--Workout & Diet Plans: Assign and manage
--Payments & Expenses: API endpoints to record and track
--Security: JWT authentication, CORS, password hashing
+## 📦 Core Modules
 
-🔹Note:
--This project requires both frontend and backend to be running for full functionality.
--Some features (like payments) may require backend deployment and configuration.
+### 🎯 Frontend
+- **Authentication**: Login, registration, password reset, protected routes  
+- **User Dashboard**: Appointments, plans, supplements, and profile management  
+- **Admin Dashboard**: Manage users, plans, appointments, supplements, and finances  
+- **Store & Cart**: Browse/purchase supplements, manage shopping cart  
+- **Workout & Diet Plans**: View assigned plans and give feedback  
+- **Financials**: Track payments and expenses (UI only)
+
+### 🔧 Backend
+- **User Management**: Register, login, role assignment, and profile updates  
+- **Membership Plans**: Full CRUD functionality  
+- **Appointments**: Book, edit, cancel sessions  
+- **Supplements**: Inventory and product management (CRUD)  
+- **Workout & Diet Plans**: Assign plans and manage feedback  
+- **Payments & Expenses**: API endpoints to record and fetch transactions  
+- **Security**: JWT authentication, password hashing, CORS configuration
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
