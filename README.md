@@ -1,49 +1,18 @@
 <div align="center">
-
-  <!-- Lightweight inline SVG with a 3D isometric cube and gradient title -->
-  <svg width="920" height="180" viewBox="0 0 920 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maxxie Fitness Center Management System">
-    <defs>
-      <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
-        <stop offset="0%" stop-color="#7C3AED"/>
-        <stop offset="50%" stop-color="#2563EB"/>
-        <stop offset="100%" stop-color="#06B6D4"/>
-      </linearGradient>
-      <linearGradient id="g2" x1="0" x2="1" y1="1" y2="0">
-        <stop offset="0%" stop-color="#0EA5E9"/>
-        <stop offset="100%" stop-color="#22D3EE"/>
-      </linearGradient>
-      <linearGradient id="textGrad" x1="0" x2="1">
-        <stop offset="0%" stop-color="#22D3EE"/>
-        <stop offset="50%" stop-color="#60A5FA"/>
-        <stop offset="100%" stop-color="#A78BFA"/>
-      </linearGradient>
-      <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
-        <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.25"/>
-      </filter>
-    </defs>
-    <g transform="translate(40,30)">
-      <!-- Isometric cube -->
-      <g transform="translate(0,0) scale(1.2)" filter="url(#softShadow)">
-        <polygon points="40,10 100,40 60,70 0,40" fill="url(#g1)"/>
-        <polygon points="0,40 60,70 60,120 0,90" fill="#164E63" opacity="0.8"/>
-        <polygon points="100,40 60,70 60,120 100,90" fill="url(#g2)"/>
-      </g>
-      <!-- Title -->
-      <text x="170" y="55" font-family="Segoe UI, Inter, system-ui, -apple-system, Arial" font-size="28" font-weight="800" fill="url(#textGrad)">Maxxie Fitness Center Management System</text>
-      <text x="170" y="90" font-family="Segoe UI, Inter, system-ui, -apple-system, Arial" font-size="16" fill="#94A3B8">Full‑stack platform for members, coaches, and admins</text>
-    </g>
-  </svg>
+  <h1>Maxxie Fitness Center Management System</h1>
+  <p><strong>Full‑stack platform for members, coaches, and admins</strong></p>
 
   <p>
-    <a href="https://nodejs.org" target="_blank"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white" /></a>
+    <a href="https://nodejs.org" target="_blank"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white" /></a>
     <a href="https://expressjs.com" target="_blank"><img alt="Express" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /></a>
     <a href="https://react.dev" target="_blank"><img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /></a>
-    <a href="https://www.mongodb.com" target="_blank"><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4.x+-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /></a>
+    <a href="https://www.mongodb.com" target="_blank"><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4.x%2B-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /></a>
     <a href="LICENSE" target="_blank"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge" /></a>
   </p>
-  <p>
-    <em>Modern, structured documentation with lightweight 3D visuals (SVG) for an engaging README.</em>
-  </p>
+
+  <!-- Project demo: Put your video at docs/demo.mp4 for GitHub to render a player below -->
+  <video src="docs/demo.mp4" controls style="max-width: 980px; width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(2,6,23,.18);"></video>
+  <p><em>If the video does not load, add your project demo at <code>docs/demo.mp4</code> or replace the source with a hosted URL.</em></p>
 </div>
 
 ---
@@ -213,11 +182,11 @@ flowchart LR
 
 ---
 
-### Screenshots & Branding
+### Demo & Media
 
-You can add screenshots or GIFs here to showcase flows. A project logo is available:
-
-![Maxxie Logo](frontend/public/maxxieslogo.png)
+- The embedded player above loads from `docs/demo.mp4` if present.
+- Optionally add a thumbnail at `docs/cover.png` and replace the video tag with: `<video src="docs/demo.mp4" controls poster="docs/cover.png"></video>`.
+- Add additional screenshots/GIFs in a `docs/` folder and reference them here.
 
 ---
 
