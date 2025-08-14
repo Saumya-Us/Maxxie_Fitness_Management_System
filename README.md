@@ -184,8 +184,6 @@ flowchart LR
 
 ### Demo & Media
 
-- The embedded player above loads from `docs/demo.mp4` if present.
-- Optionally add a thumbnail at `docs/cover.png` and replace the video tag with: `<video src="docs/demo.mp4" controls poster="docs/cover.png"></video>`.
 - Add additional screenshots/GIFs in a `docs/` folder and reference them here.
 
 ---
